@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#app-wrapper {
+    background-image: url('/assets/images/background.png');
+    height: 100vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-container {
+    padding: 2.5rem;
+}
+
+#title {
+    font-size: 2.5rem;
+    color: #ffffff;
+}

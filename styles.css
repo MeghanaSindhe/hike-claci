@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-size: cover;
 }
 
 #title-container {
@@ -21,4 +22,33 @@
 #title {
     font-size: 2.5rem;
     color: #ffffff;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    align-items: center;
+}
+
+.app-text{
+    font-size:1.5rem;
+    color: #FEDDBE;
+    font-weight: 600;
+}
+
+.text-box{
+    outline: none;
+    border: none;
+    background: none;
+    border: 1px solid #F5EFE7;
+    font-size:1.5rem;
+    margin-left:3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #F5EFE7;
+    border-radius: 4px;
 }
